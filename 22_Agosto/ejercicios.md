@@ -10,24 +10,18 @@ En todos los casos, **los números deben ser solicitados al usuario en el `main`
 **Enunciado:**  
 Implementa una función llamada **`sumar`** que:
 
-- **Parámetros:** reciba **dos enteros** (`int a, int b`).
-- **Retorno:** devuelva un **entero** (`int`) con la suma de ambos.
-
 **En el `main`:**
 
 1. Solicita al usuario que ingrese **dos números enteros**.
 2. Llama a la función `sumar` pasando esos valores como argumentos.
 3. Muestra en pantalla el resultado de la suma.
 
----
+[Ver solución 1️⃣](soluciones/ejercicio_1/ejericio_1.cpp)
 
 ## 2️⃣ Ejercicio intermedio – Función con condicionales
 
 **Enunciado:**  
 Crea una función llamada **`esPar`** que:
-
-- **Parámetros:** reciba **un entero** (`int n`).
-- **Retorno:** devuelva un **booleano** (`bool`), `true` si el número es par y `false` si es impar.
 
 **En el `main`:**
 
@@ -35,15 +29,12 @@ Crea una función llamada **`esPar`** que:
 2. Llama a la función `esPar` con ese número como argumento.
 3. Muestra un mensaje en pantalla indicando si el número es par o impar.
 
----
+[Ver solución 2️⃣](soluciones/ejercicio_2/ejericio_2.cpp)
 
 ## 3️⃣ Ejercicio avanzado – Función con arreglos
 
 **Enunciado:**  
 Desarrolla una función llamada **`sumaArreglo`** que:
-
-- **Parámetros:** reciba un **arreglo de enteros** (`int[]`) y un **entero** que indique el tamaño del arreglo (`int n`).
-- **Retorno:** devuelva un **entero** (`int`) con la suma de todos los elementos del arreglo.
 
 **En el `main`:**
 
@@ -52,18 +43,17 @@ Desarrolla una función llamada **`sumaArreglo`** que:
 3. Llama a la función `sumaArreglo` pasando el arreglo y su tamaño como argumentos.
 4. Muestra en pantalla el resultado de la **suma total**.
 
----
+[Ver solución 3️⃣](soluciones/ejercicio_3/ejericio_3.cpp)
 
 ## 4️⃣ Ejercicio reto – Función con comparaciones múltiples
 
 **Enunciado:**  
 Crea una función llamada **`maximo`** que:
 
-- **Parámetros:** reciba **tres enteros** (`int a, int b, int c`).
-- **Retorno:** devuelva un **entero** (`int`) que corresponda al mayor de los tres.
-
 **En el `main`:**
 
 1. Solicita al usuario que ingrese **tres números enteros**.
 2. Llama a la función `maximo` pasando esos tres números como argumentos.
 3. Muestra en pantalla cuál es el número mayor.
+
+[Ver solución 4️⃣](soluciones/ejercicio_4/ejericio_4.cpp)
