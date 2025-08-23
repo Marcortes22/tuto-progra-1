@@ -40,17 +40,17 @@ Crea una función llamada **`esPar`** que:
 ## 3️⃣ Ejercicio avanzado – Función con arreglos
 
 **Enunciado:**  
-Desarrolla una función llamada **`promedio`** que:
+Desarrolla una función llamada **`sumaArreglo`** que:
 
 - **Parámetros:** reciba un **arreglo de enteros** (`int[]`) y un **entero** que indique el tamaño del arreglo (`int n`).
-- **Retorno:** devuelva un **número decimal** (`double`) con el promedio de los elementos.
+- **Retorno:** devuelva un **entero** (`int`) con la suma de todos los elementos del arreglo.
 
 **En el `main`:**
 
 1. Solicita al usuario cuántos números desea ingresar (`n`).
 2. Pide al usuario que ingrese esos **n números enteros** y almacénalos en un arreglo.
-3. Llama a la función `promedio` pasando el arreglo y su tamaño como argumentos.
-4. Muestra en pantalla el resultado del promedio.
+3. Llama a la función `sumaArreglo` pasando el arreglo y su tamaño como argumentos.
+4. Muestra en pantalla el resultado de la **suma total**.
 
 ---
 
