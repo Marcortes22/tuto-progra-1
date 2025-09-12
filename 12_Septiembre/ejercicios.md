@@ -46,7 +46,6 @@ A diferencia de los anteriores, aquí **toda la lógica está dentro de las clas
    - Sobreescribir `Mostrar()` para incluir kilometraje.
 5. En `main.cpp`:
    - Crear un objeto `Carro`.
-   - Mostrar sus datos.
-   - Calcular y mostrar la depreciación.
+   - Mostrar sus datos y años de antiguedad.
 
 ---
