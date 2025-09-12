@@ -44,7 +44,6 @@ A diferencia de los anteriores, aquí **toda la lógica está dentro de las clas
    - `int kilometraje`
 4. Métodos:
    - Sobreescribir `Mostrar()` para incluir kilometraje.
-   - `float CalcularDepreciacion()` → Retorna el valor depreciado según años y kilometraje.
 5. En `main.cpp`:
    - Crear un objeto `Carro`.
    - Mostrar sus datos.
