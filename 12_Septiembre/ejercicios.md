@@ -1,6 +1,5 @@
 # Ejercicios de Programación Orientada a Objetos (POO) en C++
 
-Estos ejercicios están diseñados para practicar **clases**, **constructores**, **herencia**, **métodos con lógica interna**, **colecciones** y **polimorfismo** en C++.  
 A diferencia de los anteriores, aquí **toda la lógica está dentro de las clases** (no hay funciones externas).
 
 ---
