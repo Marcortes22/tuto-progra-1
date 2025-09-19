@@ -1,5 +1,6 @@
 # Ejercicios de Programación Orientada a Objetos (POO) en C++
 
+Estos ejercicios están diseñados para practicar **clases**, **constructores**, **herencia**, **métodos con lógica interna**, **colecciones** y **polimorfismo** en C++.  
 A diferencia de los anteriores, aquí **toda la lógica está dentro de las clases** (no hay funciones externas).
 
 ---
@@ -44,8 +45,35 @@ A diferencia de los anteriores, aquí **toda la lógica está dentro de las clas
    - `int kilometraje`
 4. Métodos:
    - Sobreescribir `Mostrar()` para incluir kilometraje.
+   - `float CalcularDepreciacion()` → Retorna el valor depreciado según años y kilometraje.
 5. En `main.cpp`:
    - Crear un objeto `Carro`.
-   - Mostrar sus datos y años de antiguedad.
+   - Mostrar sus datos.
+   - Calcular y mostrar la depreciación.
 
 ---
+
+## Ejercicio 3 – Clase Tienda y Producto
+
+**Objetivo:** Manejar colecciones dentro de una clase y aplicar lógica interna.
+
+**Instrucciones:**
+
+1. Crear una clase `Producto` con:
+   - `string nombre`
+   - `float precio`
+   - `int stock`
+   - Método `Mostrar()`.
+2. Crear una clase `Tienda` que contenga:
+   - `string nombreTienda`
+   - `vector<Producto> productos`
+3. Métodos de `Tienda`:
+   - `void AgregarProducto(Producto p)`
+   - `bool VenderProducto(string nombre, int cantidad)` → Verifica stock y descuenta.
+   - `void MostrarInventario()`
+   - `float CalcularValorInventario()` → Retorna la suma `precio * stock` de todos los productos.
+4. En `main.cpp`:
+   - Crear una tienda con varios productos.
+   - Mostrar inventario.
+   - Realizar una venta.
+   - Calcular el valor total del inventario.
