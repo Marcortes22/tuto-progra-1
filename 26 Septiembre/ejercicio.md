@@ -2,11 +2,11 @@
 
 ## Objetivo
 
-Desarrollar la habilidad de identificar entidades, atributos y relaciones en un sistema de gestión de supermercado, y representar datos de prueba en formato JSON.
+Desarrollar la habilidad de identificar entidades, atributos y relaciones en un sistema de **gestión de gimnasio**, y representar datos de prueba en formato JSON.
 
 ## Instrucciones
 
-1. Analiza las necesidades de un supermercado para la gestión de productos, clientes, tickets y personal.
+1. Analiza las necesidades de un **gimnasio** para la gestión de clientes, entrenadores, membresías, clases y reservas.
 2. A partir de tu análisis:
    - Identifica al menos **6 entidades** que consideres fundamentales para el sistema.
    - Para cada entidad:
@@ -18,7 +18,7 @@ Desarrollar la habilidad de identificar entidades, atributos y relaciones en un 
 4. Crea archivos de prueba en **JSON** para **3 de tus entidades principales**:
    - Cada archivo debe contener entre 10 y 20 registros.
    - Incluye relaciones entre entidades utilizando objetos anidados o referencias por IDs según corresponda.
-   - Usa valores realistas para simular escenarios de un supermercado.
+   - Usa valores realistas para simular escenarios de un gimnasio.
 
 ## Entregables
 

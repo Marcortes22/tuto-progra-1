@@ -1,0 +1,26 @@
+{
+  "edades": [1, 40, 20, 50],
+
+  "nombre": "Marco",
+
+  "gatos": [
+    {
+      "color": "rojo",
+      "raza": "..."
+    },
+    {
+      "color": "rojo",
+      "raza": "..."
+    }
+  ],
+
+  "gato": {
+    "color": "rojo",
+    "raza": "..."
+  },
+
+  "trabajador": {
+    "puesto": "desarrollador",
+    "salario": 1000
+  }
+}
