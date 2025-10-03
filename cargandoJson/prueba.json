@@ -1,0 +1,23 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "edad": 30,
+      "correo": "juan.perez@example.com"
+    },
+    {
+      "id": 2,
+      "nombre": "María Gómez",
+      "edad": 25,
+      "correo": "maria.gomez@example.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos López",
+      "edad": 40,
+      "correo": "asfasdf@asfasdf.com"
+    }
+  ]
+  
+}
