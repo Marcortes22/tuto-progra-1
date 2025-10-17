@@ -1,4 +1,7 @@
 #include <iostream>
+
+
+using json = nlohmann::json;
 using namespace std;
 
 class Clientes {
@@ -46,5 +49,10 @@ class Clientes {
 			cout << "Correo: " << correo << endl;
 			cout << "------------------------" << endl;
 			cout << endl;
+		}
+
+
+		static Clientes from_json(const json& j) {
+			return { j.at("id"), j.at("nombre"), j.at("edad"), j.at("correo") };
 		}
 };
